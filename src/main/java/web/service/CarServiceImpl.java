@@ -11,6 +11,7 @@ public class CarServiceImpl implements CarService{
 
     @Override
     public List<Car> getListCar(Integer count) {
+        carList = new ArrayList<>();
         carList.add(new Car("Mersedes", "CLS", 2018));
         carList.add(new Car("BMW", "5-series", 2005));
         carList.add(new Car("Mersedes", "S-Class", 2010));
